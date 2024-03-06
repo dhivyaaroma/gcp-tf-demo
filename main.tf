@@ -12,7 +12,7 @@ provider "google" {
 
   project = "da-apigee-tf"
   region  = "asia-south1"
-  zone    = "asia-south1-c"
+  zone    = "asia-south1-b"
 }
 
 resource "google_compute_network" "vpc_network" {

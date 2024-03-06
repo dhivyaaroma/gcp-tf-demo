@@ -11,8 +11,8 @@ provider "google" {
   credentials = var.gcp_credentials
 
   project = "da-apigee-tf"
-  region  = "asia-south1"
-  zone    = "asia-south1-b"
+  region  = "asia-south2"
+  zone    = "asia-south2-b"
 }
 
 resource "google_compute_network" "vpc_network" {

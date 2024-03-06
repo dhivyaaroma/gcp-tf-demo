@@ -1,4 +1,5 @@
-variable "GCP_ACCESS_KEY" {
-  description = "gcp project access key"
-  type        = string
+variable "gcp_credentials" {
+  type = string
+  sensitive = true
+  description = "Google Cloud service account credentials"
 }

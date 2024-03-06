@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = GCP_ACCESS_KEY.tfvars
+  credentials = var.GCP_ACCESS_KEY
 
   project = "da-apigee-tf"
   region  = "asia-south1"

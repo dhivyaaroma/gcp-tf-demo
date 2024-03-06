@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("C:/Users/dhivy/learn-terraform-gcp/da-apigee-tf-281f997fe4bd.json")
+  credentials = GCP_ACCESS_KEY.tfvars
 
   project = "da-apigee-tf"
   region  = "asia-south1"

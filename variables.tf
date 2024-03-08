@@ -4,7 +4,9 @@ variable "gcp_credentials" {
   description = "Google Cloud service account credentials"
 }
 
-variable "project" {}
+variable "project" {
+default = "da-apigee-tf"
+}
 
 variable "region" {
 default = "asia-south2"

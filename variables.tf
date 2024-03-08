@@ -3,3 +3,13 @@ variable "gcp_credentials" {
   sensitive = true
   description = "Google Cloud service account credentials"
 }
+
+variable "project" {}
+
+variable "region" {
+default = "asia-south2"
+}
+
+variable "zone" {
+default = "asia-south2-b"
+}
